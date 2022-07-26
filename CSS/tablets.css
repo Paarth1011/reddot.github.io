@@ -109,6 +109,9 @@
 footer .footer-contains{
     width: 95%;
 }
+footer .footer-contains form input{
+    width: 70%;
+}
 
 /* KEYFRAME */
 @keyframes fade-out {

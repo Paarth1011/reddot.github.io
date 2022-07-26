@@ -164,32 +164,31 @@ footer .footer-contains p{
     font-size: 14px;
 }
 footer .footer-contains form{
-    height: 90px;
+    margin: 50px 0px;
 }
 footer .footer-contains form input{
     width: 90%;
-    padding: 10px 5px;
-    margin: 30px 0px;
-    border: none;
+    padding: 10px 15px;
+    border: 0.5px solid rgb(228, 228, 228);
     outline: 0;
     background-color: transparent;
     caret-color: rgb(194, 194, 194);
     color: grey;
-    border-bottom: 1px solid rgb(194, 194, 194);
+    font-size: 12px;
 }
 footer .footer-contains form input::placeholder{
     color: rgb(95, 95, 95);
     font-family: 'Open Sans', sans-serif;
 }
 footer .footer-contains form button{
-    top: 0%;
-    left: 0%;
+    background-color: #ff3b5f;
     border: none;
-    background-color: transparent;
-    color: rgb(95, 95, 95);
-    font-size: 30px;
-    margin-top: 2px;
-    border-bottom: 1px solid rgb(194, 194, 194);
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px 20px;
+    letter-spacing: 1px;
 }
 footer .footer-contains form button:hover{
     cursor: pointer;

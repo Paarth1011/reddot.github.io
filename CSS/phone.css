@@ -32,9 +32,24 @@
 }
 
 /* FOOTER */
+footer{
+    padding: 50px 10px;
+}
 footer .footer-contains{
     width: 95%;
     overflow: hidden;
+}
+footer .footer-contains form{
+    flex-direction: column;
+    align-items: center;
+}
+footer .footer-contains form input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+}
+footer .footer-contains form button{
+    width: 100%;
 }
 footer .footer-contains p{
     font-size: 12px;

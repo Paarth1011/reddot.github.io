@@ -39,3 +39,6 @@
 footer .footer-contains{
     width: 70%;
 }
+footer .footer-contains form input{
+    width: 70%;
+}
