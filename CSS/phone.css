@@ -39,9 +39,6 @@ footer .footer-contains{
 footer .footer-contains p{
     font-size: 12px;
 }
-footer .footer-contains form button{
-    margin-top: 2px;
-}
 footer .footer-contains #quick-links{
     flex-direction: column;
     margin: 0;

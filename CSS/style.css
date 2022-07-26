@@ -215,6 +215,7 @@ footer .footer-contains #quick-links li a:hover{
 #copyright{
     padding: 0px 25px;
     background-color: #fbfbfb;
+    padding: 10px;
 }
 #copyright p{
     color: rgb(95, 95, 95);
