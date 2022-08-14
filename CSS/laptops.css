@@ -1,4 +1,6 @@
-/* NAVBAR */
+/******************/
+/* NAVIGATION BAR */
+/******************/
 
 #def-nav{
     padding: 20px 30px;
@@ -14,28 +16,35 @@
     display: none;
 }
 
-/* FORM */
+/**************/
+/* CONTACT US */
+/**************/
 
-#form form{
+#contact-us form{
     width: 60%;
 }
-#form button{
+#contact-us button{
     padding: 15px 0px;
 }
 
-/* FRANCHISE */
+/************/
+/* BRANCHES */
+/************/
 
-#franchise{
+#branches{
     flex-wrap: wrap;
 }
-#franchise .franchise-box{
+#branches .franchise-box{
     width: 48.6%;
 }
-#franchise .franchise-box button{
+#branches .franchise-box button{
     width: 80%;
 }
 
+/**********/
 /* FOOTER */
+/**********/
+
 footer .footer-contains{
     width: 70%;
 }

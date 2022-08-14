@@ -1,37 +1,46 @@
-/* NAVBAR */
+/******************/
+/* NAVIGATION BAR */
+/******************/
 
-#def-nav .icon-toggle-wrapper #page-list li{
+#default-navbar .icon-toggle-wrapper #page-list li{
     display: none;
 }
 
-/* FORM */
+/**************/
+/* CONTACT US */
+/**************/
 
-#form h1{
+#contact-us h1{
     font-size: 25px;
 }
-#form form{
+#contact-us form{
     width: 90%;
 }
-#form button{
+#contact-us button{
     width: 100%;
     padding: 15px 0px;
 }
 
-/* FRANCHISE */
+/************/
+/* BRANCHES */
+/************/
 
-#franchise{
+#branches{
     flex-wrap: nowrap;
     flex-direction: column;
 }
-#franchise .franchise-box{
+#branches .franchise-box{
     width: 100%;
     margin: 0;
 }
-#franchise .franchise-box button{
+#branches .franchise-box button{
     width: 80%;
 }
 
+/**********/
 /* FOOTER */
+/**********/
+
 footer{
     padding: 50px 10px;
 }
@@ -69,7 +78,10 @@ footer .footer-contains #quick-links li{
     margin: 0px 15px;
 }
 
+/************/
 /* KEYFRAME */
+/************/
+
 @keyframes fade-out {
     from {opacity: 1;}
     to {opacity: 0;}

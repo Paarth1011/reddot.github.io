@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/utility.css">
     <link rel="stylesheet" href="./CSS/laptops.css" media="only screen and (max-width: 1111px)">
-    <link rel="stylesheet" href="./CSS/tablets.css" media="only screen and (max-width: 750px)">
+    <link rel="stylesheet" href="./CSS/tablets.css" media="only screen and (max-width: 906px)">
     <link rel="stylesheet" href="./CSS/phone.css" media="only screen and (max-width: 465px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <script src="./Javascript/script.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="./Resources/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./Resources/favicon/favicon-32x32.png">
@@ -21,8 +22,11 @@
     <title>Reddot | Where You Get What You Desire</title>
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav id="def-nav" class="flex align-center justify-space-between font">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="icon-arrow-up"></i></button>
+    <!--------------------------->
+    <!-- Navigation Bar Starts -->
+    <!--------------------------->
+    <nav id="default-navbar" class="flex align-center justify-space-between font">
         <a href="#"><img src="./Resources/logo.jpg" alt="Reddot"></a>
         <div class="icon-toggle-wrapper flex">
             <ul id="page-list" class="flex align-center">
@@ -58,10 +62,14 @@
             <div class="page-cards mg-b"><a href="#" style="color: #ff3b5f;">Contact Us</a></div>
         </div>
     </div>
-    <!-- NAVBAR ENDS -->
+    <!------------------------->
+    <!-- Navigation Bar Ends -->
+    <!------------------------->
 
-    <!-- FORM -->
-    <section id="form" class="flex column align-center justify-center theme-colorbg font color-white">
+    <!----------------------->
+    <!-- Contact Us Starts -->
+    <!----------------------->
+    <section id="contact-us" class="flex column align-center justify-center theme-colorbg font color-white">
         <h1>Send Us A Message</h1>
         <form action="#" method="post" class="flex column">
             <input type="text" name="username" id="username" placeholder="Your name*" class="theme-colorbg">
@@ -72,10 +80,14 @@
             <button type="submit" class="font">Send Message</button>
         </form>
     </section>
-    <!-- FORM ENDS -->
+    <!--------------------->
+    <!-- Contact Us Ends -->
+    <!--------------------->
 
-    <!-- FRANCHISE -->
-    <section id="franchise" class="flex font color-white">
+    <!--------------------->
+    <!-- Branches Starts -->
+    <!--------------------->
+    <section id="branches" class="flex font color-white">
         <div class="franchise-box flex column justify-center align-center bg1">
             <h1>Matches Fashion</h1>
             <p>demo@demostore.com</p>
@@ -105,9 +117,13 @@
             <button class="flex align-center justify-center font">View On Map</button>
         </div>
     </section>
-    <!-- FRANCHISE ENDS -->
+    <!------------------->
+    <!-- Branches Ends -->
+    <!------------------->
 
-    <!-- FOOTER -->
+    <!--------------------------->
+    <!-- Footer Section Starts -->
+    <!--------------------------->
     <footer class="flex column justify-center footer-bg font color-grey">
         <div class="footer-contains">
             <a href="#"><img src="./Resources/footer_logo.jpg" alt="Reddot"></a>
@@ -127,6 +143,8 @@
     <section id="copyright" class="flex justify-center align-center">
         <p class="font footer-bg">&copy; 2019 REDDOT ALL RIGHTS RESERVED. DESIGNED BY 9AMSTUDIO</p>
     </section>
-    <!-- FOOTER ENDS-->
+    <!------------------------->
+    <!-- Footer Section Ends -->
+    <!------------------------->
 </body>
 </html>

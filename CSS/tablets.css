@@ -1,15 +1,20 @@
-/* NAVBAR */
+/******************/
+/* NAVIGATION BAR */
+/******************/
 
-#def-nav{
+#default-navbar{
     padding: 20px 30px;
 }
-#def-nav .icon-toggle-wrapper #page-list li.pages{
+#default-navbar .icon-toggle-wrapper #page-list{
     display: none;
 }
-#def-nav .icon-toggle-wrapper #page-list li a{
+#default-navbar .icon-toggle-wrapper #page-list li.pages{
+    display: none;
+}
+#default-navbar .icon-toggle-wrapper #page-list li a{
     padding: 10px 15px;
 }
-#def-nav .icon-toggle-wrapper .menu-toggle{
+#default-navbar .icon-toggle-wrapper .menu-toggle{
     display: block;
     margin-left: 20px;
 }
@@ -76,36 +81,44 @@
 #sideNav .page-links .page-cards a:hover{
     color: #ff3b5f;
 }
-/* FORM */
 
-#form{
+/**************/
+/* CONTACT US */
+/**************/
+
+#contact-us{
     padding: 70px 10px;
 }
-#form h1{
+#contact-us h1{
     font-size: 30px;
 }
-#form form{
+#contact-us form{
     width: 80%;
 }
-#form button{
+#contact-us button{
     padding: 15px 0px;
 }
 
-/* FRANCHISE */
+/************/
+/* BRANCHES */
+/************/
 
-#franchise{
+#branches{
     flex-wrap: nowrap;
     flex-direction: column;
 }
-#franchise .franchise-box{
+#branches .franchise-box{
     width: 100%;
     margin: 0;
 }
-#franchise .franchise-box button{
+#branches .franchise-box button{
     width: 80%;
 }
 
+/**********/
 /* FOOTER */
+/**********/
+
 footer .footer-contains{
     width: 95%;
 }
@@ -113,7 +126,10 @@ footer .footer-contains form input{
     width: 70%;
 }
 
+/************/
 /* KEYFRAME */
+/************/
+
 @keyframes fade-out {
     from {opacity: 1;}
     to {opacity: 0;}
